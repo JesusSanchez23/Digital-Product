@@ -1,0 +1,70 @@
+
+@media screen and (max-width: 688px){
+  
+    body{
+        background: rgb(221, 221, 221);
+    }
+    
+    .products{
+        display: inherit;
+        height: auto;
+        margin: 0;
+        
+        
+    }
+    .product{
+        margin-top:auto ;   
+        width: 100%;
+    }
+    .product .content{
+        margin: 0;
+        justify-items: center;
+        width: 100%;
+    }
+    .main-section{
+        padding: 4%;
+        
+    }
+    div .product{
+        padding: 10px;
+        
+    }
+    .topics{
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .topics .caracter{
+        width: 100%;
+        text-align: center;   
+    }
+    .characters{    
+        display: inherit;
+        text-align: center;
+        font-size: 20px;
+    }
+    .mentions{
+        height: auto;
+        width: 100%;
+        display: block;
+        margin: 0;  
+        
+    }
+    .mentions .mention{
+        background: rgb(255, 255, 255);
+        width: 80%;
+        text-align: center;  
+        margin: 0px auto;
+        margin-top: 10px;
+         
+    }
+    
+    footer {
+        margin: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+      }
+}

@@ -1,0 +1,64 @@
+h1
+{
+    text-align: center;
+}
+.container
+{
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,maxmin(500,200));
+    gap: 10px;
+    grid-template-areas: "image-1 product-1 product-1"
+                         "product-2 product-2 image-2"
+                         "image-3 product-3 product-3";
+                         gap: 50px;
+}
+
+.item{
+    padding: 20px;
+    
+}
+.image-1
+{
+    grid-area: image-1;
+    background-color: rgb(204, 201, 197);
+   
+}
+.image-1 img
+{
+    width: 300px;
+    
+}
+.product-1
+{
+    grid-area: product-1;
+    display: inline;
+}
+.image-2
+{
+    grid-area: image-2;
+    background-color: rgb(204, 201, 197);
+}
+.image-2 img
+{
+    width: 300px;
+    
+}
+.product-2
+{
+    grid-area: product-2;
+}
+.image-3
+{
+    grid-area: image-3;
+    background-color: rgb(204, 201, 197);
+}
+.image-3 img
+{
+    width: 300px;
+    
+    
+}
+.product-3
+{
+    grid-area: product-3;
+}

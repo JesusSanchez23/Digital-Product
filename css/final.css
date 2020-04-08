@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-brand{
+   height: 100vh;
+}
+
+.image-brand  a{
+    text-decoration: none;
+    color: white;
+}
+
+.image-brand img{
+    width: 600px;
+}
